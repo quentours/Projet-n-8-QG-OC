@@ -1,0 +1,21 @@
+$primary-color: #1d1c27;
+$secondary-color: #323136;
+$third-color: #2e4456;
+$fourth-color: #3c858d;
+$fifth-color: #82dbde;
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+@mixin verticalcenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin horizontalcenter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
