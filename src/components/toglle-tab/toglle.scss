@@ -1,0 +1,164 @@
+@import '../../App.scss';
+
+#a-propos-title {
+  background: linear-gradient(135deg, $third-color 0%, $secondary-color 100%);
+
+  h2 {
+    font-size: 2rem;
+    color: white;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    position: relative;
+    top: 0rem;
+    @include horizontalcenter;
+  }
+}
+
+#section-a-propos {
+  height: 27rem;
+  background: linear-gradient(135deg, $third-color 0%, $secondary-color 100%);
+  padding: 2rem 0 5rem 0;
+  transition: padding 0.3s ease-in-out;
+  @include verticalcenter;
+}
+
+.tab {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 54px;
+  padding-left: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: $primary-color;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+  width: 100%;
+
+  &-title {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  &-icon {
+    margin-right: 20px;
+    transition: transform 0.5s ease;
+  }
+
+  &-content {
+    margin: 0;
+    width: 100%;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+  }
+
+  &-text {
+    color: $secondary-color;
+    padding: 10px;
+    background-color: #f6f6f6;
+    font-size: 16px;
+  }
+
+  &-container {
+    width: 90%;
+    margin-bottom: 3rem;
+    @include verticalcenter;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &-header {
+    @include horizontalcenter;
+
+    img {
+      height: 1.5rem;
+      width: 1.5rem;
+      border-radius: 50%;
+      margin-left: 1rem;
+    }
+  }
+}
+
+.tab1-wrapper {
+  @include verticalcenter;
+  width: 100%;
+  margin-top: 2.5rem;
+  padding-bottom: 5rem;
+}
+
+.rotate {
+  transform: rotate(180deg);
+}
+
+.fa-chevron-up {
+  margin-right: 20px;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+@media (max-width: 1400px) {
+  .tab {
+    width: 100%;
+
+    &-content {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .tab {
+    padding-left: 15px;
+    height: 30px;
+    width: 90%;
+
+    &-title {
+      font-size: 13px;
+    }
+
+    &-text {
+      font-size: 0.7rem;
+    }
+
+    &-content {
+      width: 90%;
+    }
+
+    &-container {
+      margin-bottom: 2rem;
+    }
+  }
+
+  #section-a-propos {
+    height: 20rem;
+
+    h2 {
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  .fa-chevron-up {
+    margin-right: 5px;
+    font-size: 16px;
+  }
+
+  #a-propos-title {
+    height: 7rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .tab {
+    &-text {
+      font-size: 0.6rem;
+    }
+
+    &-container {
+      margin-bottom: 2rem;
+    }
+  }
+  #a-propos-title {
+    height: 7rem;
+  }
+}

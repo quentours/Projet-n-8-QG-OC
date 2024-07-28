@@ -1,0 +1,112 @@
+@import '../../App.scss';
+
+#carousel {
+  height: 50.756rem;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+
+  .card {
+    height: 100%;
+  }
+
+  svg {
+    width: 2rem;
+    margin: 0 1rem 0 1rem;
+  }
+
+  .p-icon {
+    color: $fourth-color;
+    height: 10rem;
+  }
+}
+
+.carousel-item {
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.custom-carousel-container {
+  height: 100%;
+  width: 100%;
+}
+
+.custom-carousel {
+  width: 100%;
+}
+
+.carousel-item {
+  position: relative;
+  width: 100%;
+}
+
+.carousel-image {
+  border-radius: 50px;
+  width: 100%;
+  height: auto;
+}
+
+.carousel-description {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  width: calc(100% - 20px);
+  text-align: center;
+}
+
+@media (max-width: 1400px) {
+  #carousel {
+    height: 40.756rem;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+}
+
+@media (max-width: 1199px) {
+  #carousel {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .carousel-description {
+    bottom: 10%;
+    padding: 5px;
+    width: calc(100% - 10px);
+    font-size: 0.8rem;
+  }
+
+  #carousel {
+    height: 22.798rem;
+
+    button {
+      bottom: 1rem;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .carousel-description {
+    bottom: 10%;
+    font-size: 0.7rem;
+  }
+  #carousel {
+    height: 16.945rem;
+    button {
+      bottom: 1rem;
+    }
+  }
+  .carousel-image {
+    border-radius: 25px;
+  }
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "imageUrl": "/images/skills/html.png",
+    "skillName": "HTML"
+  },
+  {
+    "imageUrl": "/images/skills/CSS3.webp",
+    "skillName": "CSS"
+  },
+  {
+    "imageUrl": "/images/skills/JavaScript.png",
+    "skillName": "JavaScript"
+  },
+  {
+    "imageUrl": "/images/skills/react.png",
+    "skillName": "React"
+  },
+  {
+    "imageUrl": "/images/skills/scss.webp",
+    "skillName": "Sass"
+  },
+  {
+    "imageUrl": "/images/skills/lighthouse.png",
+    "skillName": "Google Lighthouse"
+  },
+  {
+    "imageUrl": "/images/skills/wave.png",
+    "skillName": "Wave"
+  },
+  {
+    "imageUrl": "/images/skills/node.png",
+    "skillName": "Node.js"
+  },
+  {
+    "imageUrl": "/images/skills/express.png",
+    "skillName": "Express"
+  },
+  {
+    "imageUrl": "/images/skills/mongoDB.png",
+    "skillName": "MongoDB"
+  },
+  {
+    "imageUrl": "/images/skills/notion.png",
+    "skillName": "Notion"
+  }
+]
