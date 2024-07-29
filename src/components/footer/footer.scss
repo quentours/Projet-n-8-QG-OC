@@ -1,0 +1,43 @@
+@import '../../App.scss';
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: $third-color;
+  color: $fifth-color;
+  text-align: center;
+  margin-top: 2rem;
+  padding-top: 2rem;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.social-icon {
+  color: $fifth-color;
+  font-size: 2rem;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.social-icon:hover {
+  background-color: #fff;
+  color: #333;
+}

@@ -87,6 +87,19 @@ body {
   }
 }
 
+#section-contact {
+  #contact-title {
+    @include verticalcenter;
+    margin: 2rem 0 2rem 0;
+
+    h2 {
+      margin: 0;
+      font-size: 2rem;
+      color: white;
+    }
+  }
+}
+
 @media (max-width: 767px) {
   #card-wrapper {
     grid-template-columns: 1fr !important;
