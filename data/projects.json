@@ -1,0 +1,80 @@
+[
+  {
+    "title": "Project Booki",
+    "description": "Projet HTML et CSS, création d'une page statique avec un design responsive",
+    "techUsed": ["HTML", "CSS", "Design responsive"],
+    "mainImage": "/images/portfolio/projet2/main-picture.PNG",
+    "gitUrl": "https://github.com/quentours/Projet-n-2-QG-OC",
+    "images": [
+      "/images/portfolio/projet2/desktop_booki.webp",
+      "/images/portfolio/projet2/activites.PNG",
+      "/images/portfolio/projet2/tablette.png",
+      "/images/portfolio/projet2/mobile.png"
+    ]
+  },
+  {
+    "title": "Project Sophie Buel, Architecte d'intérieur",
+    "description": "Projet Javascript, création d'une page web dynamique",
+    "techUsed": ["Javascript", "CSS"],
+    "mainImage": "/images/portfolio/projet3/main-picture.PNG",
+    "gitUrl": "https://github.com/quentours/Projet-n-3-QG-OC",
+    "images": [
+      "/images/portfolio/projet3/p3_desktop.PNG",
+      "/images/portfolio/projet3/filtre et galerie.PNG",
+      "/images/portfolio/projet3/Ajout projet.PNG"
+    ]
+  },
+  {
+    "title": "Projet Nina Carducci, photographe ",
+    "description": "Projet référencement, optimisation accessibilité et SEO",
+    "techUsed": ["Optimisation", "Référencement", "Accesibilité"],
+    "mainImage": "/images/portfolio/projet4/main-pictures.PNG",
+    "gitUrl": "https://github.com/quentours/Projet-n-4-QG-OC",
+    "images": [
+      "/images/portfolio/projet4/desktop.PNG",
+      "/images/portfolio/projet4/google-lighthouse.png",
+      "/images/portfolio/projet4/Rapport wave après.PNG"
+    ]
+  },
+  {
+    "title": "Projet Kasa, Location entre particuliers",
+    "description": "Projet React",
+    "techUsed": ["React", "Feuille de style SCSS"],
+    "mainImage": "/images/portfolio/projet5/main-picture.PNG",
+    "gitUrl": "https://github.com/quentours/Projet-n-5-QG-OC",
+    "images": [
+      "/images/portfolio/projet5/accueil.png",
+      "/images/portfolio/projet5/logement.png",
+      "/images/portfolio/projet5/a propos.png"
+    ]
+  },
+  {
+    "title": "Projet Mon Vieux Grimoire, Site de notation de livres ",
+    "description": "Projet Back-end, création d'une API",
+    "techUsed": ["Node.js", "Express", "MongoDB"],
+    "mainImage": "/images/portfolio/projet6/main-picture.PNG",
+    "gitUrl": "https://github.com/quentours/Projet-n-6-QG-OC",
+    "images": [
+      "/images/portfolio/projet6/Accueil.png",
+      "/images/portfolio/projet6/connexion.png",
+      "/images/portfolio/projet6/page-livre.png"
+    ]
+  },
+  {
+    "title": "Projet Menu Maker by Qwenta",
+    "description": "Gestion et planification de projet",
+    "techUsed": [
+      "Tableau Kanban",
+      "Feedly",
+      "Dossier spécification techniques"
+    ],
+    "mainImage": "/images/portfolio/projet7/main-picture.PNG",
+    "gitUrl": "",
+    "images": [
+      "/images/portfolio/projet7/Landing connecté.PNG",
+      "/images/portfolio/projet7/Création de plat.PNG",
+      "/images/portfolio/projet7/modale plat 2.PNG",
+      "/images/portfolio/projet7/Kanban.PNG"
+    ]
+  }
+]
