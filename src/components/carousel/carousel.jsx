@@ -13,25 +13,25 @@ export default function CircularDemo() {
     {
       id: 2,
       name: 'image 2',
-      url: `${process.env.PUBLIC_URL}/images/carousel/p3_desktop.PNG`,
+      url: `${process.env.PUBLIC_URL}/images/carousel/p3_desktop.webp`,
       description: 'Projet Sophie Buel : Javascript ',
     },
     {
       id: 3,
       name: 'image 3',
-      url: `${process.env.PUBLIC_URL}/images/carousel/p5_desktop.png`,
+      url: `${process.env.PUBLIC_URL}/images/carousel/p5_desktop.webp`,
       description: 'Projet Kasa :React',
     },
     {
       id: 4,
       name: 'image 4',
-      url: `${process.env.PUBLIC_URL}/images/carousel/p6_desktop.png`,
+      url: `${process.env.PUBLIC_URL}/images/carousel/p6_desktop.webp`,
       description: 'Projet Mon vieux grimoire : Back-end et création d une API',
     },
     {
       id: 5,
       name: 'image 5',
-      url: `${process.env.PUBLIC_URL}/images/carousel/p7_kanban.png`,
+      url: `${process.env.PUBLIC_URL}/images/carousel/p7_kanban.webp`,
       description: 'Projet Menu Maker Qwenta : Gestion de projet',
     },
   ])
