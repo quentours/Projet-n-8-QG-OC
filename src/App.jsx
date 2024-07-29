@@ -7,6 +7,8 @@ import Toggle from './components/toglle-tab/toglle.jsx'
 import ProjectModal from './components/modal/modal.jsx'
 import Card from './components/card/card.jsx'
 import Skill from './components/skill/skill.jsx'
+import ContactForm from './components/contactForm/contactForm.jsx'
+import Footer from './components/footer/footer.jsx'
 import { fetchData } from './components/fetch/fetch.jsx'
 import { Link as ScrollLink, Element } from 'react-scroll'
 import 'primereact/resources/primereact.min.css'
@@ -126,6 +128,13 @@ function App() {
           ))}
         </div>
       </section>
+      <section id="section-contact">
+        <section id="contact-title">
+          <h2>Contact</h2>
+        </section>
+        <ContactForm />
+      </section>
+      <Footer />
     </div>
   )
 }
