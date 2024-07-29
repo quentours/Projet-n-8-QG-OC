@@ -1,6 +1,6 @@
 [
   {
-    "imageUrl": "/images/skills/html.png",
+    "imageUrl": "/images/skills/html.webp",
     "skillName": "HTML"
   },
   {
@@ -8,11 +8,11 @@
     "skillName": "CSS"
   },
   {
-    "imageUrl": "/images/skills/JavaScript.png",
+    "imageUrl": "/images/skills/JavaScript.webp",
     "skillName": "JavaScript"
   },
   {
-    "imageUrl": "/images/skills/react.png",
+    "imageUrl": "/images/skills/react.webp",
     "skillName": "React"
   },
   {
@@ -20,27 +20,27 @@
     "skillName": "Sass"
   },
   {
-    "imageUrl": "/images/skills/lighthouse.png",
+    "imageUrl": "/images/skills/lighthouse.webp",
     "skillName": "Google Lighthouse"
   },
   {
-    "imageUrl": "/images/skills/wave.png",
+    "imageUrl": "/images/skills/wave.webp",
     "skillName": "Wave"
   },
   {
-    "imageUrl": "/images/skills/node.png",
+    "imageUrl": "/images/skills/node.webp",
     "skillName": "Node.js"
   },
   {
-    "imageUrl": "/images/skills/express.png",
+    "imageUrl": "/images/skills/express.webp",
     "skillName": "Express"
   },
   {
-    "imageUrl": "/images/skills/mongoDB.png",
+    "imageUrl": "/images/skills/mongoDB.webp",
     "skillName": "MongoDB"
   },
   {
-    "imageUrl": "/images/skills/notion.png",
+    "imageUrl": "/images/skills/notion.webp",
     "skillName": "Notion"
   }
 ]
