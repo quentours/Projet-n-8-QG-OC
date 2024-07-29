@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './fontawesome'
 import Header from './components/header/Header.jsx'
 import CircularDemo from './components/carousel/carousel.jsx'
